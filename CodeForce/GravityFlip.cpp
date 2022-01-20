@@ -22,8 +22,8 @@ int main()
     
     sort(arr.begin(), arr.end());
 
-    for(int x = 0; x < arr.size(); x++)
+    for(int x : arr)
     {
-        cout << arr[x] << ' ';
+        cout << x << ' ';
     }
 }
